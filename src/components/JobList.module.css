@@ -1,0 +1,42 @@
+.mainWrap {
+
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 24px 16px 24px 16px;
+    gap: 32px;
+    height: 164px;
+    background: #FFFFFF;
+    box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.08),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.04),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+
+}
+
+.picture {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+}
+
+.stars {
+    justify-content: flex-end;
+    margin-left: 200px;
+}
+
+p {
+    color: lightgray;
+}
+
+.text {
+    align-items: flex-end;
+    margin-top: 50px;
+    margin-right: 50px;
+    color: grey;
+}
+.infoBox{
+    width: 1000px;
+}
