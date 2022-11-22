@@ -22,10 +22,11 @@
     margin: 25px;
 }
 
-.stars {
-    justify-content: flex-end;
-    margin-left: 200px;
-}
+/*.stars {*/
+/*    !*display:flex;*!*/
+/*    !*justify-content: flex-end;*!*/
+/*    !*    margin-left: 200px;*!*/
+/*}*/
 
 p {
     color: lightgray;

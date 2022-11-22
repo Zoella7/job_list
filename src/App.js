@@ -1,14 +1,19 @@
-import {JobComponent, JodDetails} from "./components";
+import {JobComponent, JobDetails} from "./components";
+import {Routes, Route, Navigate} from "react-router-dom";
 
 
 function App() {
-  return (
-    <div>
+    return (
+        <Routes>
 
-      <JobComponent/>
+            <Route path={'jobs'} element={<JobComponent/>}/>
+            <Route index element={<Navigate to={'jobs'}/>}/>
+            <Route path={'jobs/details'} element={<JobDetails/>}/>
 
-    </div>
-  );
+        </Routes>
+
+
+    );
 }
 
 export default App;
